@@ -1,0 +1,8 @@
+# to customize the compiled report. 
+# this really only matters for single-file formats
+# htmls formats, such as bookdown::gitbook will have a file per chapter with its title
+book_filename: "report.Rmd"
+
+# to let bookdown delete the merged file and avoid having to delete it manually after render failed
+# be careful not to create a meaningful "report.rmd" (book_filename) file yourself, because it will delete it as well
+delete_merged_file: true
