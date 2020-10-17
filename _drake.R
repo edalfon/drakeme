@@ -1,6 +1,6 @@
 
 # Load all your R files, which includes 0_packages.R to attach needed packages
-# (note leading 0, to get it sourced first. Key when using devtools::load_all())
+# (note leading 0, to get it sourced first. Handy in using devtools::load_all())
 lapply(list.files("./R", full.names = TRUE), source, encoding = "UTF-8")
 
 # Your R files should have one or more drake plans. Bind them into the_plan
