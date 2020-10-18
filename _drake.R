@@ -29,7 +29,6 @@ the_plan <- drake::bind_plans(
   #   the plan, or somewhat heretical code formatting.
   
   bookme_plan()
-  
 )
 
 # Here just follow dflow, by default changing only format to qs and history=F

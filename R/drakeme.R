@@ -66,3 +66,4 @@ vizme2 <- function() {
   #base::shell(output_file, wait = FALSE)
 }
 
+loadd <- purrr::partial(drake::loadd, replace = FALSE)
