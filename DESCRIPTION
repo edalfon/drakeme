@@ -2,15 +2,21 @@ Package: drakeme
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Eduardo",
-           family = "Alfonso-Sierra",
-           role = c("aut", "cre", "cph"),
-           email = "edalfon@gmail.com",
-           comment = c(ORCID = "0000-0001-6430-5135"))
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
-License: MIT + file LICENSE
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
 Encoding: UTF-8
-Language: en
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
+Imports: 
+    bookdown,
+    callr,
+    drake,
+    lubridate,
+    visNetwork

@@ -1,4 +1,4 @@
-bookme_plan <- function() { drake::drake_plan(
+plan_bookme <- function() { drake::drake_plan(
 
   # Bookdown #######
   # Bookdown all .Rmd reports into a single book using the M-K default approach
@@ -9,5 +9,5 @@ bookme_plan <- function() { drake::drake_plan(
     output_format = "bookdown::gitbook" # to override _output.yml
     #output_format = "bookdown::word_document2"
   )
-  
+
 )}
